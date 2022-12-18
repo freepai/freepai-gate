@@ -6,8 +6,14 @@
     "dev": "webpack serve"
   },
   "dependencies": {
-    "@babylonjs/core": "^5.0.0-alpha.62",
-    "noa-engine": "^0.32.0",
+    "@babylonjs/core": "^5.37.0",
+    "@babylonjs/inspector": "^5.37.0",
+    "@babylonjs/serializers": "^5.37.0",
+    "@babylonjs/loaders": "^5.37.0",
+    "@babylonjs/gui-editor": "^5.37.0",
+    "@babylonjs/gui": "^5.37.0",
+    "@babylonjs/materials": "^5.37.0",
+    "noa-engine": "../noa",
     "voxel-crunch": "^0.2.1"
   },
   "devDependencies": {

@@ -14,6 +14,9 @@
 // Engine options object, and engine instantiation:
 import { Engine } from 'noa-engine'
 
+import "@babylonjs/core/Debug/debugLayer";
+import "@babylonjs/inspector";
+
 // or import from local filesystem when hacking locally:
 // import { Engine } from '../../../noa'
 
@@ -24,6 +27,7 @@ var opts = {
     chunkSize: 32,
     chunkAddDistance: 2.5,
     chunkRemoveDistance: 3.5,
+    supportsVR: false,
     // See `test` example, or noa docs/source, for more options
 }
 var noa = new Engine(opts)
@@ -111,6 +115,10 @@ import { Mesh } from '@babylonjs/core/Meshes/mesh'
 import '@babylonjs/core/Meshes/Builders/boxBuilder'
 
 var scene = noa.rendering.getScene()
+scene.debugLayer.show({
+    embedMode: true,
+});
+
 var mesh = Mesh.CreateBox('player-mesh', 1, scene)
 mesh.scaling.x = w
 mesh.scaling.z = w

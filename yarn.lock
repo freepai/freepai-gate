@@ -2,15 +2,75 @@
 # yarn lockfile v1
 
 
-"@babylonjs/core@^5.0.0-alpha.62":
-  version "5.35.1"
-  resolved "https://registry.npmjs.org/@babylonjs/core/-/core-5.35.1.tgz#c06b6ea14f7b1e24432b5e207e0642a869522270"
-  integrity sha512-CJ61GcMFYN9mjgkKzM+fokM7/TRPc3LW4eAesENRSdX6nEngtn1B9FodqKMD1hnb6T30Cm907Lmse1AAHXzFvw==
+"@babylonjs/core@^5.37.0":
+  version "5.38.0"
+  resolved "https://registry.npmjs.org/@babylonjs/core/-/core-5.38.0.tgz#e640f7aa6365eec4572355d2fe6e627b9b6e4936"
+  integrity sha512-uZ1jPkx/agxFD8TbAaTkZnSiGV1tPDSG10XD35NE5ShJ5z11G9w9GavCxhfwrL1OPjCASuAaXQXzpzV+pN9u/A==
+
+"@babylonjs/gui-editor@^5.37.0":
+  version "5.38.0"
+  resolved "https://registry.npmjs.org/@babylonjs/gui-editor/-/gui-editor-5.38.0.tgz#d67380c95d0f24828abddb2d19870feb07b83cc1"
+  integrity sha512-XviJWdOvB0ft6YsAZ8p8MbvxFJk2ke+DyIQfpEZkwul6kHZ9P4fHVvU2Pk3qx99BC58IycLzqgKfwe5lecdYeQ==
+
+"@babylonjs/gui@^5.37.0":
+  version "5.38.0"
+  resolved "https://registry.npmjs.org/@babylonjs/gui/-/gui-5.38.0.tgz#626f512836a0195ace87b7ca8a17831754bab046"
+  integrity sha512-6NjK4CPdKa67kky9U92cH9sYth270cOm7z79mKSoNrjNb3P76jlPCdMMs53GkxzpkLAXNVwovZRDQp1TTECiAA==
+
+"@babylonjs/inspector@^5.37.0":
+  version "5.38.0"
+  resolved "https://registry.npmjs.org/@babylonjs/inspector/-/inspector-5.38.0.tgz#02b5d5e4af89ed4f904eb0673f15ba780761627e"
+  integrity sha512-pPymCUERCi4YVr9GC3orytDUmAzDcmV1Xj+nHAtii3bSjmBQPsFSOR4Q3l2FWZkR2P5TTSBGm0F7OSvUKhCt0Q==
+  dependencies:
+    "@fortawesome/fontawesome-svg-core" "^6.1.0"
+    "@fortawesome/free-regular-svg-icons" "^6.0.0"
+    "@fortawesome/free-solid-svg-icons" "^6.0.0"
+
+"@babylonjs/loaders@^5.37.0":
+  version "5.38.0"
+  resolved "https://registry.npmjs.org/@babylonjs/loaders/-/loaders-5.38.0.tgz#ef34e29ed02b2c2f144fde525eb52d76e771f968"
+  integrity sha512-CRQWfNUaEmiOHuwFH3jdWIPjniDAZUB5/5zuWqYD/It5Y4CXSm8Q0HTvRV2wbZKNApJtpPWG6FIK6j1x1nbU/Q==
+
+"@babylonjs/materials@^5.37.0":
+  version "5.38.0"
+  resolved "https://registry.npmjs.org/@babylonjs/materials/-/materials-5.38.0.tgz#cc8e9af30c02ded0630044af6230da92dd6f00bc"
+  integrity sha512-6UilR4Ev5J820S9/LFZY2bx4igGmZ36dyAIOdr/MZP1/UA+SmKd9FM8BVTeTPngvUdXRigTp6M0eoAXDdu4IbA==
+
+"@babylonjs/serializers@^5.37.0":
+  version "5.38.0"
+  resolved "https://registry.npmjs.org/@babylonjs/serializers/-/serializers-5.38.0.tgz#44d25d07460ccb3fbb28d7f4f7bdd71a8d3dd712"
+  integrity sha512-o60Ojcn5cqHigNh9ULuSyi7BNFFtgqEMl3paNrpH0exdpO4geuIlJgRwRKSEBmc8oAy5kfZAt6JAsWHH/1fosA==
 
 "@discoveryjs/json-ext@^0.5.0":
   version "0.5.7"
   resolved "https://registry.npmjs.org/@discoveryjs/json-ext/-/json-ext-0.5.7.tgz#1d572bfbbe14b7704e0ba0f39b74815b84870d70"
   integrity sha512-dBVuXR082gk3jsFp7Rd/JI4kytwGHecnCoTtXFb7DB6CNHp4rg5k1bhg0nWdLGLnOV71lmDzGQaLMy8iPLY0pw==
+
+"@fortawesome/fontawesome-common-types@6.2.1":
+  version "6.2.1"
+  resolved "https://registry.npmjs.org/@fortawesome/fontawesome-common-types/-/fontawesome-common-types-6.2.1.tgz#411e02a820744d3f7e0d8d9df9d82b471beaa073"
+  integrity sha512-Sz07mnQrTekFWLz5BMjOzHl/+NooTdW8F8kDQxjWwbpOJcnoSg4vUDng8d/WR1wOxM0O+CY9Zw0nR054riNYtQ==
+
+"@fortawesome/fontawesome-svg-core@^6.1.0":
+  version "6.2.1"
+  resolved "https://registry.npmjs.org/@fortawesome/fontawesome-svg-core/-/fontawesome-svg-core-6.2.1.tgz#e87e905e444b5e7b715af09b64d27b53d4c8f9d9"
+  integrity sha512-HELwwbCz6C1XEcjzyT1Jugmz2NNklMrSPjZOWMlc+ZsHIVk+XOvOXLGGQtFBwSyqfJDNgRq4xBCwWOaZ/d9DEA==
+  dependencies:
+    "@fortawesome/fontawesome-common-types" "6.2.1"
+
+"@fortawesome/free-regular-svg-icons@^6.0.0":
+  version "6.2.1"
+  resolved "https://registry.npmjs.org/@fortawesome/free-regular-svg-icons/-/free-regular-svg-icons-6.2.1.tgz#650e56d937755a8341f2eef258ecb6f95458820f"
+  integrity sha512-wiqcNDNom75x+pe88FclpKz7aOSqS2lOivZeicMV5KRwOAeypxEYWAK/0v+7r+LrEY30+qzh8r2XDaEHvoLsMA==
+  dependencies:
+    "@fortawesome/fontawesome-common-types" "6.2.1"
+
+"@fortawesome/free-solid-svg-icons@^6.0.0":
+  version "6.2.1"
+  resolved "https://registry.npmjs.org/@fortawesome/free-solid-svg-icons/-/free-solid-svg-icons-6.2.1.tgz#2290ea5adcf1537cbd0c43de6feb38af02141d27"
+  integrity sha512-oKuqrP5jbfEPJWTij4sM+/RvgX+RMFwx3QZCZcK9PrBDgxC35zuc7AOFsyMjMd/PIFPeB2JxyqDr5zs/DZFPPw==
+  dependencies:
+    "@fortawesome/fontawesome-common-types" "6.2.1"
 
 "@jpweeks/typedarray-pool@^2.0.0":
   version "2.0.0"
@@ -1400,10 +1460,8 @@ neo-async@^2.6.2:
   resolved "https://registry.npmjs.org/neo-async/-/neo-async-2.6.2.tgz#b4aafb93e3aeb2d8174ca53cf163ab7d7308305f"
   integrity sha512-Yd3UES5mWCSqR+qNT93S3UoYUkqAZ9lLg8a7g9rimsWmYGK8cVToA4/sF3RrshdyV3sAGMXVUmpMYOw+dLpOuw==
 
-noa-engine@^0.32.0:
-  version "0.32.0"
-  resolved "https://registry.npmjs.org/noa-engine/-/noa-engine-0.32.0.tgz#90587e490ec1d1f784aca2f55d0f516344c3a7b4"
-  integrity sha512-Q8EI2EDr7uaJ6F4hSnA+fkur2c0XGgfwBkzXOmpMfIRnxX5dSpnFmDvvi1aCt7So72rUMbLSsrjwJQIXSTsAgw==
+noa-engine@../noa:
+  version "0.32.3"
   dependencies:
     aabb-3d fenomas/aabb-3d
     box-intersect fenomas/box-intersect

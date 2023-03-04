@@ -27,7 +27,7 @@ push:
 
 # 运行Docker容器
 run:
-	docker run -p 8001:80 $(DOCKER_REPO)/$(APP_IMAGE):$(DOCKER_REVISION)
+	docker run -d --name ${APP_NAME} -p 8001:80 $(DOCKER_REPO)/$(APP_IMAGE):$(DOCKER_REVISION)
 
 # 停止Docker容器
 stop:

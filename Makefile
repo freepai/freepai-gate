@@ -2,7 +2,7 @@
 DOCKER_REPO=freepai
 APP_NAME=freepai-gate
 APP_IMAGE=gate
-DOCKER_REVISION=0.1.0
+DOCKER_REVISION=0.2.0
 
 # 本地文件映射目录
 LOCAL_DIST_DIR=./dist

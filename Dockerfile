@@ -14,6 +14,7 @@ RUN npm install
 COPY . .
 
 # 构建应用
+RUN cd libs/noa && npm install
 RUN npm run build
 
 # 配置生产环境镜像
@@ -23,7 +24,7 @@ FROM nginx:1.21.3-alpine
 WORKDIR /usr/share/nginx/html
 
 # 复制 Vite 应用构建产物
-COPY --from=builder /app/dist .
+COPY --from=builder /app/public .
 
 # 暴露端口
 EXPOSE 80

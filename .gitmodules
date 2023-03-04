@@ -1,0 +1,3 @@
+[submodule "libs/noa"]
+	path = libs/noa
+	url = https://github.com/fenomas/noa.git

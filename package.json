@@ -3,7 +3,8 @@
   "private": true,
   "version": "0.0.0",
   "scripts": {
-    "dev": "webpack serve"
+    "dev": "webpack serve",
+    "build": "webpack build"
   },
   "dependencies": {
     "@babylonjs/core": "^5.37.0",
@@ -13,7 +14,7 @@
     "@babylonjs/gui-editor": "^5.37.0",
     "@babylonjs/gui": "^5.37.0",
     "@babylonjs/materials": "^5.37.0",
-    "noa-engine": "../noa",
+    "noa-engine": "./libs/noa",
     "voxel-crunch": "^0.2.1"
   },
   "devDependencies": {

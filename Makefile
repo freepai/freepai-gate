@@ -31,4 +31,4 @@ run:
 
 # 停止Docker容器
 stop:
-	docker container stop $(APP_NAME)
+	docker rm -f $(APP_NAME)
